@@ -1,0 +1,327 @@
+/* Start for mobile menu*/
+
+@media (min-width: 320px) and (max-width:991px) {
+	.header_part {
+		display: none;
+	}
+
+	.miobile_menu {
+		display: block;
+
+	}
+}
+
+/* End for mobile menu*/
+
+/* // mobile devices (landscape phones, 320px and up) */
+
+@media (min-width: 320px) and (max-width:575px) {
+	h3 {
+
+		font-size: 30px;
+	}
+
+	h4 {
+
+		font-size: 22px;
+	}
+
+	.py-95 {
+		padding: 50px 0;
+	}
+
+	.py-50 {
+		padding: 20px 0;
+	}
+
+	.banner_slider {
+		padding: 130px 0 155px;
+	}
+
+	.banner_slider .banner_cont h3 {
+		font-size: 40px;
+	}
+
+	.banner_slider .banner_cont p {
+		font-size: 19px;
+
+	}
+
+	.banner_part a.carousel-control-prev {
+		top: 43%;
+		left: 2%;
+		font-size: 40px;
+		height: 40px;
+		width: 40px;
+		line-height: 30px;
+
+	}
+
+	.banner_part a.carousel-control-next {
+		top: 43%;
+		right: 2%;
+		font-size: 40px;
+		height: 40px;
+		width: 40px;
+		line-height: 30px;
+	}
+
+	.about_cont {
+		margin-left: 0px;
+		padding-bottom: 50px;
+
+	}
+
+	.about_cont h6 {
+		padding-bottom: 5px;
+	}
+
+	.work_menu ul.iso_menu {
+		padding-top: 20px;
+	}
+
+	.work_menu ul.iso_menu li {
+
+		padding: 0px 10px;
+		margin: 5px 0;
+	}
+
+	.work_item {
+		width: 90%;
+		height: auto;
+		clear: both;
+
+
+	}
+
+	.work_item_img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.work_item_img img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.slick-slide img {
+		margin: auto;
+	}
+
+	.service_iteam {
+		margin-top: 40px;
+	}
+
+	.footer_link ul {
+		float: none;
+		margin-top: 10px;
+		margin-left: 12%;
+
+	}
+
+	.svg svg {
+		height: 30px;
+	}
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767px) {
+	.py-95 {
+		padding: 60px 0;
+	}
+
+	.py-50 {
+		padding: 20px 0;
+	}
+
+	h3 {
+		font-size: 38px;
+	}
+
+	h4 {
+		font-size: 22px;
+	}
+
+	.banner_slider {
+		padding: 130px 0 145px;
+	}
+
+	.banner_slider .banner_cont h3 {
+
+		font-size: 46px;
+	}
+
+	.banner_part a.carousel-control-prev {
+		height: 42px;
+		width: 42px;
+		top: 50%;
+		left: 2%;
+		font-size: 40px;
+		line-height: 36px;
+
+	}
+
+	.banner_part a.carousel-control-next {
+		height: 42px;
+		width: 42px;
+		top: 50%;
+		right: 2%;
+		font-size: 40px;
+		line-height: 36px;
+	}
+
+	.about_cont {
+		margin-left: 0px;
+		padding-bottom: 60px;
+	}
+
+	.service_iteam {
+		margin-top: 50px;
+	}
+
+	.slick-slide img {
+		margin: auto;
+	}
+
+	.work_item {
+		width: 150px;
+		height: 135px;
+
+	}
+
+	.work_item_img_overlay .work_item_cont h6 {
+		font-size: 16px;
+	}
+
+	.work_item_img_overlay .work_item_cont a {
+		height: 25px;
+		width: 24px;
+		margin-top: 15px;
+		font-size: 27px;
+		line-height: 15px;
+
+
+	}
+
+	.work_menu ul.iso_menu {
+		margin-top: 25px;
+	}
+
+	.footer_part .copy_right p {
+		text-align: center;
+	}
+
+	.footer_link ul {
+		float: none;
+		margin-top: 15px;
+		margin-left: 30%;
+	}
+
+	.svg svg {
+		height: 30px;
+	}
+}
+
+/* // Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) {
+	h3 {
+		font-size: 38px;
+	}
+
+	.py-95 {
+		padding: 55px 0;
+	}
+
+
+
+	.banner_slider .banner_cont h3 {
+		font-size: 43px;
+	}
+
+
+
+	.banner_part a.carousel-control-prev {
+		height: 50px;
+		display: inline-block;
+		width: 50px;
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.banner_part a.carousel-control-next {
+		height: 50px;
+		display: inline-block;
+		width: 50px;
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.about_cont {
+		padding-bottom: 60px;
+	}
+
+	.service_iteam {
+		margin-top: 55px;
+	}
+
+	.work_item {
+		width: 210px;
+		height: 181px;
+
+	}
+
+	.work_item_img_overlay .work_item_cont h6 {
+		font-size: 16px;
+	}
+
+	.work_item_img_overlay .work_item_cont a {
+		height: 25px;
+		width: 24px;
+		margin-top: 15px;
+		font-size: 27px;
+		line-height: 15px;
+
+
+	}
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) {
+	.py-50 {
+		padding: 25px 0;
+	}
+
+	.banner_part a.carousel-control-next,
+	.banner_part a.carousel-control-prev {
+		line-height: 45px;
+	}
+
+	.about_cont {
+		padding-bottom: 55px;
+	}
+
+	.work_item {
+		width: 210px;
+		height: 181px;
+
+	}
+
+	.work_item_img_overlay .work_item_cont h6 {
+		font-size: 18px;
+	}
+
+	.work_item_img_overlay .work_item_cont a {
+		height: 30px;
+		width: 28px;
+		margin-top: 15px;
+		font-size: 30px;
+		line-height: 20px;
+
+
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
